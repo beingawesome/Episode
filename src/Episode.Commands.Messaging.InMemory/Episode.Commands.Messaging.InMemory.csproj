@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Episode.Commands.Handlers\Episode.Commands.Handlers.csproj" />
+    <ProjectReference Include="..\Episode.Commands.Messaging\Episode.Commands.Messaging.csproj" />
+  </ItemGroup>
+
+</Project>

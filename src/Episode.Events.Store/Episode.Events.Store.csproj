@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Episode.Events\Episode.Events.csproj" />
+    <ProjectReference Include="..\Episode.Versioning\Episode.Versioning.csproj" />
+  </ItemGroup>
+
+</Project>
